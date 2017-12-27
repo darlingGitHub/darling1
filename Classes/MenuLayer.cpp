@@ -1,13 +1,7 @@
 #include "MenuLayer.h"
 
 
-
 MenuLayer::MenuLayer(void)
-{
-}
-
-
-MenuLayer::~MenuLayer(void)
 {
 }
 
@@ -18,4 +12,8 @@ bool MenuLayer::init()
 		return false;
 	}
 	return true;
+}
+
+MenuLayer::~MenuLayer(void)
+{
 }

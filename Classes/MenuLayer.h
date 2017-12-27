@@ -11,3 +11,4 @@ public:
 	virtual bool init();
 	virtual ~MenuLayer(void);
 };
+
